@@ -76,6 +76,41 @@ while (num6 >= 1){
 let num7 = 100;
 
 while (num7>=1){
-    console.log(num7);
+    // console.log(num7);
     num7--;
+}
+
+// simple for loop
+
+for(let i=1; i<=10; i++){
+    // console.log(i);
+}
+
+// find the even number 0 to 100 using for loop
+
+for(let i=0; i<=100; i+=2){
+    // console.log(i);
+}
+
+for(let i=0; i<=100; i++){
+    if(i%2===0){
+        console.log(i);
+    }
+}
+
+// find the odd number 0 to 100 using for loop
+
+for(let i=1; i<=100; i+=2){
+    // console.log(i);
+}
+
+for(let i=0; i<=100; i++){
+    if(i%2===1){
+        // console.log(i);
+    }
+}
+for (let i=0; i<=100; i++){
+    if(i%2!==0){
+        console.log(i);
+    }
 }
